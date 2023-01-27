@@ -99,3 +99,6 @@ do
 	echo "$(grep -c "ATA" $filepath) $filepath"
 	
 done
+
+#think about what character each sequence header starts with to think about what your grep command should be looking for
+#for the sum remember my comment about initializing a variable outside of your for loop and then within the loop you can add to that variable
