@@ -98,8 +98,7 @@ count=0
 
 for filepath in "$@"
 do
-	echo $(grep ">" $filepath | wc -l)
-	echo $filepath
+	echo "$(grep ">" $filepath | wc -l) $filepath"
 	counter="$(grep ">" $filepath | wc -l)"
         count=$((count+counter))
 done
