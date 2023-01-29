@@ -103,3 +103,4 @@ do
         count=$((count+counter))
 done
 echo "$count"
+
