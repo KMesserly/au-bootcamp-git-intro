@@ -104,3 +104,8 @@ do
 done
 echo "$count"
 
+
+#CTracy comment: You are very close on this now! Take a look at lines 71-73 for a way to pull the file name and not the whole path!
+#There are two other issues keeping the script from passing the tests:
+#1. There is a command that is printing all the filenames provided as the first line - look above your code to see if there is a line you should comment out
+#2. I would recommend creating a variable for your grep and a variable for the filename using the (basename), then calling those variables with an echo within the loop
